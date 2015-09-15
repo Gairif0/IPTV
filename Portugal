@@ -1,0 +1,78 @@
+#EXTM3U
+#EXTINF:0,RTP1
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtp1.smil/playlist.m3u8
+#EXTINF:0,RTP2
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtp2.smil/playlist.m3u8
+#EXTINF:0,SIC
+http://noscdn1.connectedviews.com:1935/live/sic.stream/livestream.m3u8
+#EXTINF:0,TVI
+http://noscdn1.connectedviews.com:1935/live/+tvi.stream/livestream.m3u8
+#EXTINF:0,RTP Informação
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpn.smil/playlist.m3u8
+#EXTINF:0,TVI24
+http://video-live.iol.pt:1935/live_tvi24/smil:LIVE_TVI24/playlist.m3u8
+#EXTINF:0,CMTV
+rtmp://31.220.0.196/privatestream/ playpath=cmtv33ed?keys=Z8JKXT08v54nbKsHsHpLnDww&keyt=1439178385 swfUrl=http://privatestream.tv/js/jwplayer.flash.swf live=1 pageUrl=http://privatestream.tv/ conn=S:OK timeout=15
+#EXTINF:0,RTP Africa
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+#EXTINF:0,TV Globo
+rtmp://srv6.zoeweb.tv/z821-live/stream2
+
+#EXTINF:0,#EXTINF:0,[COLOR mediumslateblue]» » RÁDIOS « «[/COLOR]
+http://0.0.0.0:1234
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="Radio_Comercial.png" group-title="RADIOS",[COLOR mediumslateblue] COMERCIAL [/COLOR]
+#EXTINF:0,rtmp://195.23.102.206/comerciallc playpath=comerciallc.sdp swfUrl=http://radiocomercial.iol.pt/player/scripts/player.swf pageUrl=http://radiocomercial.iol.pt/player/webcam.asp
+ 
+#EXTINF:0,#EXTINF:-1 radio="true"tvg-logo="m80.png" group-title="RADIOS",[COLOR mediumslateblue] M80 [/COLOR]
+http://7719.live.streamtheworld.com:80/GR80SRFMAAC_SC
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="94fm.png" group-title="RADIOS",[COLOR mediumslateblue] 94FM [/COLOR] http://195.8.58.150:35022/;stream.nsv
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="superfm.png" group-title="RADIOS",[COLOR mediumslateblue] SUPER FM [/COLOR]
+#EXTINF:0,http://94.23.76.235:9956/
+ 
+#EXTINF:0,#EXTINF:-1 radio="true"tvg-logo="hiperfm.png" group-title="RADIOS",[COLOR mediumslateblue] HIPER FM [/COLOR]
+http://85.25.73.243:10460/
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="ANTENA 1.png" group-title="RADIOS",[COLOR mediumslateblue] ANTENA 1 [/COLOR]
+#EXTINF:0,mms://rdp.oninet.pt/antena1
+ 
+#EXTINF:0,#EXTINF:-1 radio="true"tvg-logo="ANTENA 3.png" group-title="RADIOS",[COLOR mediumslateblue] ANTENA 3 [/COLOR]
+mms://rdp.oninet.pt/antena3
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="OCEANO PACIFICO.png" group-title="RADIOS",[COLOR mediumslateblue] OCEANO PACIFICO [/COLOR]
+#EXTINF:0,http://7719.live.streamtheworld.com:3690/OCEANPACIFIC_SC
+ 
+#EXTINF:0,#EXTINF:-1 radio="true"tvg-logo="MEGA FM.png" group-title="RADIOS",[COLOR mediumslateblue] MEGA FM [/COLOR]
+http://7719.live.streamtheworld.com:3690/MEGA_HITS_SC?.wma
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="RENASCENÇA.png" group-title="RADIOS",[COLOR mediumslateblue] RENASCENÇA [/COLOR]
+#EXTINF:0,http://7709.live.streamtheworld.com:3690/RADIO_RENASCENCA_SC?.wma
+ 
+#EXTINF:0,#EXTINF:-1 radio="true"tvg-logo="RFM.png" group-title="RADIOS",[COLOR mediumslateblue] RFM [/COLOR]
+http://7719.live.streamtheworld.com/RFM_SC
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="RFM 80.png" group-title="RADIOS",[COLOR mediumslateblue] RFM 80 [/COLOR]
+#EXTINF:0,http://11073.live.streamtheworld.com/GR80SRFMAAC?
+ 
+#EXTINF:0,#EXTINF:-1 radio="true"tvg-logo="VODAFONE FM.png" group-title="RADIOS",[COLOR mediumslateblue] VODAFONE FM [/COLOR]
+rtmp://195.23.102.206/autometadata5/ playpath=vodafone.sdp swfUrl=http://www.vodafone.fm/flash/soundmanager2_flash9.swf?ts=1425470563156 live=1 pageUrl=http://www.vodafone.fm/
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="SMOOTH FM.png" group-title="RADIOS",[COLOR mediumslateblue] SMOOTH FM [/COLOR]
+#EXTINF:0,rtmp://195.23.102.206/smoothlc playpath=smoothlc.sdp
+ 
+#EXTINF:0,#EXTINF:-1 radio="true"tvg-logo="CIDADE FM.png" group-title="RADIOS",[COLOR mediumslateblue] CIDADE FM [/COLOR]
+rtmp://195.23.102.208/cidadefmlc/ playpath=cidadefmlc.sdp swfUrl=http://cdn.radiosfm.org/swf/soundmanager2_flash9.swf pageUrl=http://www.radioonline.com.pt/#radio-cidade-fm
+#EXTINF:0, 
+#EXTINF:-1 radio="true"tvg-logo="RADIO CLUBE LAMEGO.png" group-title="RADIOS",[COLOR mediumslateblue] RADIO CLUBE LAMEGO [/COLOR]
+#EXTINF:0,rtmp://aacplus.stream10.net:1935/sfera playpath=7050 swfUrl=http://www.rclamego.pt/player/aacplayer.swf pageUrl=http://www.rclamego.pt/player/aacplayer.swf
+#EXTINF:-1 radio="true"tvg-logo="RA.png" group-title="RADIOS",[COLOR mediumslateblue] RADIO ATLANTIDA [/COLOR]
+#EXTINF:0,http://94.23.76.235:9926
+#EXTINF:-1 radio="true"tvg-logo="topfm.png" group-title="RADIOS",[COLOR mediumslateblue] MYTOPFM SM [/COLOR]
+#EXTINF:0,http://195.8.58.150:35006/
+#EXTINF:-1 radio="true"tvg-logo="topfm.png" group-title="RADIOS",[COLOR mediumslateblue] MYTOPFM TERCEIRA [/COLOR]
+#EXTINF:0,http://195.8.58.150:35008/
+#EXTINF:-1 radio="true" tvg-logo="cmfm.png",Canal FM
+#EXTINF:0,http://centova.radio.com.pt:9466/
+
